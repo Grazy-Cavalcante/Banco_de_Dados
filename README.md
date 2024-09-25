@@ -127,10 +127,11 @@ if (filme) {
 Resposta: Sim, ano da cerimônia: 1999
 
 **11- Inclua no banco 3 filmes que nunca foram nem nomeados ao Oscar, mas que merecem ser.**
-```js
+
 
 Resposta: Os filmes que eu acredito que deveriam ser indicados são: Orgulho e Preconceito, Estrelas Além do Tempo e De Repente 30.
 
+```js
 db.registros.insertMany([
     { nome_do_filme: "Orgulho e Preconceito", categoria: "Dramas", vencedor: '1' },
     { nome_do_filme: "Estrelas Além do Tempo", categoria: "Dramas", vencedor: '1' },
